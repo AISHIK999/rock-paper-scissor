@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock, Paper, Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="heading">
+        <h1 class="intro"><span>Rock, Paper, Scissors</span></h1>
+        <h5 class="info">Play rock, paper, scissors with the computer. Have fun ;)</h5>
+        <a href="#game"><button id="play" ><span>PLAY</span></button></a>
+
+    </div>
+    <div class="game" id="game">
+        <p class="guide"><span>Pick any. See if you win</span></p>
+        <button id="rock" onclick="RockClick()">ROCK</button>
+        <button id="paper" onclick="PaperClick()">PAPER</button>
+        <button id="scissor" onclick="ScissorClick()">SCISSOR</button>
+        <p class="final" id="final"><span></span></p>
+        <button id="reset" onclick="Reset()">RESET</button>
+    </div>
+</div>
+
+<!--Import JavaScript-->
+<script src="script.js"></script>
+</body>
+</html>

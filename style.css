@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    position: relative;
+}
+
+.heading {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    align-items: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: url(background.svg) center no-repeat;
+    background-size: cover;
+}
+
+.intro {
+    text-align: center;
+    padding-top: 10rem;
+    font-size: 4rem;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.info {
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 3rem;
+    color: wheat;
+}
+
+button {
+    background-color: #1DB954;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 6rem;
+}
+
+.game {
+    padding-top: 10rem;
+    height: 100vh;
+    width: 100vw;
+    background-color: #001220;
+    text-align: center;
+}
+
+.guide {
+    color: white;
+    font-size: 3rem;
+}
+
+.final {
+    font-size: 3rem;
+    color: white;
+}
